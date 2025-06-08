@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Sample > Snapshot 1`] = `
+<DocumentFragment>
+  <h1
+    data-testid="element-id"
+  >
+    Sample
+  </h1>
+</DocumentFragment>
+`;

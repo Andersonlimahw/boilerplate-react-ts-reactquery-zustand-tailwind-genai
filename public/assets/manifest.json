@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "Boilerplate reactjs 🍋",
+    "short_name": "Boilerplate reactjs  🍋",
+    "theme_color": "#121212",
+    "background_color": "#121212",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "images/pwa-64x64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "images/pwa-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/pwa-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },           
+      {
+        "src": "images/maskable-icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png", 
+        "purpose": "maskable"
+      }
+    ], 
+    "shortcuts": [
+      {
+        "name": "Todo List 🍋",
+        "short_name": "todo",
+        "description": "Make your simple, todo list.",
+        "url": "/?source=pwa",
+        "icons": [{ "src": "/images/lemon_icon.png", "sizes": "192x192" }]
+      }   
+    ], 
+    "related_applications": [
+    
+    ]
+}
