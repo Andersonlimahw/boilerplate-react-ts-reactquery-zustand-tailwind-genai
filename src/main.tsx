@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import { Login } from './pages/Login/index.js';
 import { Chat } from './pages/Chat';
+import { Profile } from './pages/Profile';
 
 import { startMirage } from './mocks/miragejs/index.js';
 
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/chat",
     element: <Chat />,
+  },
+  {
+    path: "/profile",
+    element: <Profile />,
   }
 ]);
 
